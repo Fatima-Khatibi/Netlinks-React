@@ -1,3 +1,5 @@
+import hero from "../../assets/hero-illustration.jpg";
+
 function Hero() {
   return (
     <section className="hero">
@@ -50,7 +52,7 @@ function Hero() {
 
       <div className="hero-visual">
   <img
-    src="/src/assets/hero-illustration.jpg"
+    src={hero}
     alt="Enterprise software illustration"
   />
 </div>
